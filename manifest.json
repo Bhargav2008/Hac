@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Fake News Detector",
+  "version": "1.0",
+  "description": "Detect fake news using a machine learning model.",
+  "permissions": ["storage", "activeTab"],
+  "background": {
+    "service_worker": "background.js"  // Make sure the filename matches
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
